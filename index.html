@@ -1,10 +1,84 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Shubham Kapoor</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Shubham Kapoor | Portfolio</title>
+
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  <h1>Hello, I'm Shubham 👋</h1>
-  <p>Radar | DSP | RF Engineering</p>
+  <header class="hero">
+    <nav>
+      <h2>Shubham Kapoor</h2>
+      <div>
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="https://github.com/ishubzkapoor" target="_blank">GitHub</a>
+      </div>
+    </nav>
+
+    <div class="hero-content">
+      <h1>Hello, I'm Shubham 👋</h1>
+      <p>Radar | DSP | RF Engineering | C++ | Python | MATLAB</p>
+      <a class="button" href="#projects">View Projects</a>
+    </div>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a Communication and Information Technology graduate interested in
+      radar signal processing, RF systems, DSP, digital communications, and
+      sensor-data processing. I build practical engineering projects using
+      Python, C++, and MATLAB.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project-card">
+      <h3>Modern C++ Sensor Pipeline</h3>
+      <p>
+        Built a C++17 sensor-data pipeline using producer-consumer logic,
+        bounded queues, timestamping, logging, and latency measurement.
+      </p>
+      <p><strong>Tools:</strong> C++17, STL, Threads, Chrono, File I/O</p>
+      <a href="https://github.com/ishubzkapoor/modern-cpp-sensor-pipeline" target="_blank">
+        View GitHub Repository
+      </a>
+    </div>
+
+    <div class="project-card">
+      <h3>FMCW Radar Signal Processing</h3>
+      <p>
+        Implemented a radar signal-processing chain including range FFT,
+        range-Doppler processing, CFAR detection, and target visualization.
+      </p>
+      <p><strong>Tools:</strong> Python, NumPy, Matplotlib, Radar DSP</p>
+      <a href="https://github.com/ishubzkapoor/FMCW-Radar-Signal-Processing" target="_blank">
+        View GitHub Repository
+      </a>
+    </div>
+
+    <div class="project-card">
+      <h3>Digital Transmission Simulations</h3>
+      <p>
+        Simulated digital communication chains including modulation,
+        channel effects, detection, and signal-quality evaluation.
+      </p>
+      <p><strong>Tools:</strong> MATLAB / Python, DSP, Digital Communications</p>
+      <a href="https://github.com/ishubzkapoor/Digital-Transmission-Simulations" target="_blank">
+        View GitHub Repository
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Shubham Kapoor</p>
+  </footer>
 </body>
 </html>
